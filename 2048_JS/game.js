@@ -239,9 +239,9 @@ function spawnNumber() {
     // randomly returns 2(90%) or 4(10%)
     const random = Math.random();
     if (random < 0.9) {
-        return 1024;
+        return 2;
     }
-    return 2048;
+    return 4;
 }
 
 function removeDOMs(arr) {
